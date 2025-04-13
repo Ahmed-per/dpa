@@ -1,0 +1,166 @@
+<!-- 
+     NAME: Moneeb Ali 
+    ID: 22008105-012 
+-->
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase & Returns - DESTA PRO INTERNATIONAL</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            background: #f8f8f8;
+            color: #333;
+            line-height: 1.6;
+        }
+        header, main, footer {
+            margin: 0 auto;
+        }
+        header {
+            background: white;
+            padding: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav {
+            
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo img {
+            height: 50px;
+            width: 220px;
+        }
+        ul {
+            display: flex;
+            list-style: none;
+        }
+        li {
+            margin-left: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+            font-weight: 500;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+        a:hover {
+            color: #777;
+        }
+        main {
+            padding: 40px 0;
+        }
+        section {
+            background: white;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-size: 24px;
+            margin: 25px 0 15px;
+            color: #222;
+        }
+        ul.policy-list {
+            display: block;
+            padding-left: 20px;
+        }
+        ul.policy-list li {
+            margin: 10px 0;
+            list-style-type: disc;
+        }
+        footer {
+            background: #222;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+        footer>h2 {
+            background: #222;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo"><img src="logo.png" alt="Desta Pro INTERNATIONAL"></a>
+            <button class="mobile-menu-btn">☰</button>
+            <ul class="nav-links">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="story.html">Our story</a></li>
+                <li><a href="located.html">Located</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="quote.html">Get Quote</a></li>
+                <li><a href="purchase.html" class="active">Purchase & Returns</a></li>
+                <li><a href="team.html">Team</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Purchase & Return Policy</h1>
+        
+        <section>
+            <h2>Ordering Process</h2>
+            <ul class="policy-list">
+                <li>All orders require a minimum 50% deposit</li>
+                <li>Custom orders require full payment before production begins</li>
+                <li>Standard lead time is 2-3 weeks after payment confirmation</li>
+                <li>Rush orders available for additional fee (contact for details)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Shipping Policy</h2>
+            <ul class="policy-list">
+                <li>Free shipping on orders over $500</li>
+                <li>Standard shipping: 3-5 business days ($15 flat rate)</li>
+                <li>Express shipping: 1-2 business days ($30 flat rate)</li>
+                <li>International shipping available (rates vary by destination)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Return Policy</h2>
+            <ul class="policy-list">
+                <li>Custom manufactured items cannot be returned</li>
+                <li>Standard items may be returned within 14 days of receipt</li>
+                <li>Items must be unused and in original packaging</li>
+                <li>Customer pays return shipping costs</li>
+                <li>Refunds processed within 5 business days of receiving returned items</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Desta Pro International</h2>
+        <a href="mailto:info@destapro.com">info@destapro.com</a>
+        <a href="tel:+12345567889">+1 (234) 556-7889</a>
+        <p>123 Apparel Street, Fashion District, New York, NY 10001</p>
+    </footer>
+    <script>
+        // Simple mobile menu toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

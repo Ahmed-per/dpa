@@ -1,0 +1,233 @@
+
+<!-- 
+     NAME: Ahmed Shahbaz 
+    ID: 22008105-033 
+-->
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team - DESTA PRO INTERNATIONAL</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            background: #f8f8f8;
+            color: #333;
+            line-height: 1.6;
+        }
+        header, main, footer {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header {
+            background: white;
+            padding: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo img {
+            height: 50px;
+            width: auto;
+        }
+        ul {
+            display: flex;
+            list-style: none;
+        }
+        li {
+            margin-left: 15px;
+        }
+        a {
+            font-weight: 500;
+            font-size: 14px; text-decoration: none;
+            color: inherit;
+            text-transform: uppercase;
+        }
+        a:hover {
+            color: #777;
+        }
+        main {
+            padding: 60px 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .subtitle {
+            color: #666;
+            max-width: 700px;
+            margin: 0 auto 40px;
+        }
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        article {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .member-photo {
+            height: 300px;
+            overflow: hidden;
+        }
+        .member-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .member-details {
+            padding: 20px;
+        }
+        h3 {
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+        .position {
+            color: #777;
+            margin-bottom: 15px;
+        }
+        .bio {
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        .social-links a {
+            width: 36px;
+            height: 36px;
+            background: #f0f0f0;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .social-links a:hover {
+            background: #000;
+            color: white;
+        }
+        footer {
+            background: #222;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            ul {
+                display: none;
+            }
+            .team-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo"><img src="logo.png" alt="Desta Pro International"></a>
+            <button class="mobile-menu-btn">☰</button>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="story.html">Our Story</a></li>
+                <li><a href="located.html">Location</a></li>
+                <li><a href="blogs.html">Blog</a></li>
+                <li><a href="quote.html">Get Quote</a></li>
+                <li><a href="purchase.html">Purchase & Returns</a></li>
+                <li><a href="team.html" class="active">Team</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Meet Our Team</h1>
+        <p class="subtitle">The passionate professionals behind Desta Pro International who work tirelessly to deliver exceptional products and service.</p>
+        
+        <div class="team-grid">
+           <!-- Team Member 1 -->
+<article>
+    <div class="member-photo">
+        <img src="team1.jpg" alt="Ahmed, CEO & Founder">
+    </div>
+    <div class="member-details">
+        <h3>Ahmed</h3>
+        <p class="position">CEO & Founder</p>
+        <p class="bio">With over 15 years in the apparel industry, Ahmed founded Desta Pro International with a vision to revolutionize custom clothing manufacturing.</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+</article>
+
+<!-- Team Member 2 -->
+<article>
+    <div class="member-photo">
+        <img src="team2.jpg" alt="Abdullah, Creative Director">
+    </div>
+    <div class="member-details">
+        <h3>Abdullah</h3>
+        <p class="position">Creative Director</p>
+        <p class="bio">Abdullah brings a decade of design expertise, ensuring every product meets our high standards of aesthetics and functionality.</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+</article>
+
+<!-- Team Member 3 -->
+<article>
+    <div class="member-photo">
+        <img src="team3.jpg" alt="Moneeb, Production Manager">
+    </div>
+    <div class="member-details">
+        <h3>Moneeb</h3>
+        <p class="position">Production Manager</p>
+        <p class="bio">Moneeb oversees our manufacturing process, ensuring quality control and efficient operations at every stage.</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+</article>
+        </div>
+    </main>
+
+    <footer>
+        <h2>Desta Pro International</h2>
+        <a href="mailto:info@destapro.com">info@destapro.com</a>
+        <a href="tel:+12345567889">+1 (234) 556-7889</a>
+        <p>123 Apparel Street, Fashion District, New York, NY 10001</p>
+    </footer>
+    <script>
+        // Simple mobile menu toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
